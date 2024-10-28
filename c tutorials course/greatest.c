@@ -1,0 +1,24 @@
+#include <stdio.h>
+int main()
+{
+    int a, b, c;
+    printf("Enter the three numbers : ");
+    scanf("%d %d %d", &a, &b, &c);
+
+    if (a >= b && a >= c)
+    {
+        printf("%d is the greatest of all", a);
+    }
+        else if (b >= a && b >= c)
+        {
+            printf("%d is the greatest of all", b);
+        }
+            else
+            {
+                printf("%d is the greatest of all", c);
+            }
+        
+    
+
+    return 0;
+}
